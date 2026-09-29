@@ -16,11 +16,13 @@ altura = float(input("Introduce tu altura en metros: \n"))
 
 edad_aproximada  = 2026 - anio_nacimiento
 
+"""
 print("El tipo de nombre es: " + str(type(nombre)))
 
 print("El tipo de anio_nacimiento es: " + str(type(anio_nacimiento)))
 
 print("El tipo de altura es: " + str(type(altura)))
+"""
 
 # Mostrar el mensaje final
 
