@@ -32,3 +32,5 @@ print("\n--- FICHA REGISTRADA ---\nNombre: " + nombre + " " + str(type(nombre)) 
 print(f"\n--- FICHA REGISTRADA ---\nNombre: {nombre} {str(type(nombre))} \nEdad: {str(edad_aproximada)} {str(type(edad_aproximada))} \nAltura: {str(altura)} {str(type(altura))}")
 
 print("\n--- FICHA REGISTRADA ---\nNombre: {a} {b} \nEdad: {c} {d} \nAltura: {e} {f}".format(a=nombre, b=str(type(nombre)), c=str(edad_aproximada), d=str(type(edad_aproximada)), e=str(altura), f=str(type(altura))))
+
+# También serviría print(type(nombre)) sin realizar el casting str()
