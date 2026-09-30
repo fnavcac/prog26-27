@@ -1,3 +1,8 @@
+"""
+Ejercicio 8
+Francisco Rubén Navarro Cáceres
+Programa para mostrar por pantalla un mensaje
+"""
 nombre =  "Fran"
 print("Hola " + nombre)
 
