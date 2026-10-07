@@ -16,7 +16,8 @@ public class Ejercicio19 {
         
         System.out.println("El valor inicial de a es " + a);
         
-        a = (short)(a + 1);
+        //a = (short)(a + 1);
+        a++;
         
         // Mostrar resultados
         System.out.println("El valor final de a es " + a);

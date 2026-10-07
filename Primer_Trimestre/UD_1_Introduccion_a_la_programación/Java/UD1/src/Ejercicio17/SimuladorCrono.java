@@ -41,8 +41,8 @@ public class SimuladorCrono {
         
         // Mostrar los resultados
         System.out.println(segundos + " segundos equivalen a " + horas + 
-                " hora/s, " + restoMinutos + " minuto/s, " + restoSegundos + 
-                " segundo/s.");
+                " h, " + restoMinutos + " min, " + restoSegundos + 
+                " sec.");
         
         // Ejemplo resultado para 4723 segundos -> 1 hora, 18 min y 43 segundos
         

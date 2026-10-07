@@ -6,6 +6,7 @@ import java.util.Scanner;
  * Nivel 2
  * @author 03_1DAW, Francisco Navarro
  */
+
 public class LongitudYAreaNivel2 {
     public static void main(String[] args) {
         
