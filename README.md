@@ -12,30 +12,4 @@ En este repositorio se irán subiendo las actividades y prácticas del módulo, 
 
 ### UD 1 Introducción a la programación
 
-#### Ejercicio 1
-
-Línea del tiempo sobre la historia de la programación.
-
-#### Ejercicio 2
-
-Definición de programación, algoritmo y código.
-
-#### Ejercicio 3
-
-Clasificar lenguajes
-
-#### Ejercicio 4
-
-Diagrama y algoritmo en pseudocódigo
-
-#### Ejercicio 5
-
-Diagrama y algoritmo en pseudocódigo
-
-#### Ejercicio 6
-
-Diagrama y algoritmo en pseudocódigo
-
-#### Ejercicio 7
-
-Diagrama y algoritmo en pseudocódigo
+[Ejercicio 1](Primer_Trimestre/UD_1_Introduccion_a_la_programación/Ejercicio_1)
