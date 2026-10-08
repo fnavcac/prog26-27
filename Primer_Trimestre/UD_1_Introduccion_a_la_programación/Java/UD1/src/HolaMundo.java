@@ -37,10 +37,47 @@ public class HolaMundo {
         
         
         // Para escibir desde la linea de comando
+        /*
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
         
         System.out.println("x: " + x);
+        */
+        
+        
+        // Incrementos
+        
+        int numero1 = 1;
+        int numero2 = numero1++; // Primero se asigna y luego se incrementa
+        int numero3 = ++numero1; // Primero se incrementa y luego se asignas
+        
+        System.out.println("\nnumero1: " + numero1);
+        
+        System.out.println("nuemro2 = numero1++: " + numero2);
+        
+        System.out.println("numero3 = ++numero1: " + numero3);
+        
+        
+        // Errores de aproximacion
+        
+        double errorDecimal  = (1.0/10.0) + (2.0/10.0);
+        errorDecimal = errorDecimal * 10;
+        
+        System.out.println("\nerrorDecimal  = (1.0/10.0) + (2.0/10.0)");
+        System.out.println("errorDecimal = errorDecimal * 10");
+        System.out.println(errorDecimal);
+        
+        
+        // Operador ternario
+        
+        int valorA, valorB;
+        valorA = 3 < 5 ? 1 : -1;
+        valorB = a == 7 ? 10 : 20;
+        
+        System.out.println("valorA = 3 < 5 ? 1 : -1 : " + valorA);
+        
+        System.out.println("valorB = a == 7 ? 10 : 20 : " + valorB);
+        
     }
     
 }
