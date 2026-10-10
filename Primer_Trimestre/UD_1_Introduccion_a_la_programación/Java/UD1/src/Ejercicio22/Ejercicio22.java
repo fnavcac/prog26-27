@@ -1,7 +1,7 @@
 package Ejercicio22;
 
 /**
- *
+ * Ejercicio 22
  * @author 03_1DAW, Francisco Navarro
  */
 
