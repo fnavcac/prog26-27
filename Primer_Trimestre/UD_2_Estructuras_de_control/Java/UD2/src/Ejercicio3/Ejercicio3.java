@@ -13,7 +13,7 @@ public class Ejercicio3 {
         
         // Constantes
         
-        final String nombreUsuario = "Usuario";
+        final String nombreUsuario = "Fran"; // El literal que queremos comparar
         
         
         // Variables
@@ -25,16 +25,22 @@ public class Ejercicio3 {
         
         Scanner entrada = new Scanner(System.in);
         
+        System.out.println("Introduce el nombre para acceder (Fran):");
+        
         nombreIntroducido = entrada.nextLine();
         
         
         // Estructura selectiva
         
-        if (nombreIntroducido.equals(nombreUsuario)) {
+        if (nombreIntroducido.equals(nombreUsuario)) { // Me compara el nombre introducido al literal
+            
+            System.out.println("¡Bienvenido " + nombreIntroducido + "!");
+            
+        } else {
+            
+            
             
         }
-        
-        
         
     }
     
