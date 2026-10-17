@@ -65,7 +65,7 @@ public class Ejercicio28 {
         
         System.out.println("La nota media como aparece en el boletín de calificaciones (Entero) es: " + mediaEntera);
         
-        mediaDecimal = (notaPrimer + notaSegundo + notaTercero) / 3.0; // Al poner 3.0 hace un castingé
+        mediaDecimal = (notaPrimer + notaSegundo + notaTercero) / 3.0; // Al poner 3.0 hace un casting
         
         System.out.println("La nota media como aparece en el expediente académico (Decimal) es: " + mediaDecimal);
         
