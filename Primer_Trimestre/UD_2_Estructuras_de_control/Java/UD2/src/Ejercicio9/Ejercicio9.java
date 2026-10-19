@@ -93,6 +93,26 @@ public class Ejercicio9 {
                 break;
             
         }
+        
+        // Otra forma (Usando switch como expresion)
+        
+        String valor;
+        
+        valor = switch (seleccion) {
+            
+            case 1 -> (numero1 + " + " + numero2 + " = " + (numero1 + numero2));
+                
+            case 2 -> (numero1 + " - " + numero2 + " = " + (numero1 - numero2));
+                
+            case 3 -> (numero1 + " * " + numero2 + " = " + (numero1 * numero2));
+                
+            case 4 -> (numero1 + " / " + numero2 + " = " + (numero1 / numero2));
+            
+            default -> ("\nOpcion no valida");
+            
+        };
+        
+        System.out.println(valor);
                        
     }
     

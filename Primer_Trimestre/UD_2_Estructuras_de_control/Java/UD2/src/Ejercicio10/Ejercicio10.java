@@ -53,7 +53,8 @@ public class Ejercicio10 {
         especifico (lado c en la izquierda en lugar de abajo por ejemplo)
         */
         
-        if (((ladoA + ladoB) > ladoC) || ((ladoB + ladoC) > ladoA) || ((ladoC + ladoA) > ladoB)) {
+        // Sería && por pitágoras para formar un triángulo
+        if (((ladoA + ladoB) > ladoC) && ((ladoB + ladoC) > ladoA) && ((ladoC + ladoA) > ladoB)) {
             
             if (ladoA == ladoB && ladoA == ladoC) {
                 
