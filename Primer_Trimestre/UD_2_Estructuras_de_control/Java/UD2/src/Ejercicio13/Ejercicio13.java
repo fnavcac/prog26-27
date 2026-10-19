@@ -35,6 +35,7 @@ public class Ejercicio13 {
         // Usamos Math.abs(numero) para obtener el valor absoluto del número por si introduce un número negativo
         numeroPedido = Math.abs(numeroPedido);
         
+        if (numeroPedido < 0) numeroPedido = numeroPedido * -1;
         
         // Mostrar los datos por pantalla
         
