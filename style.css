@@ -4,7 +4,7 @@ body {
 
 ul {
         list-style-type: none;
-        width: 400px;
+        width: 350px;
 }
 
 ul li a {
@@ -14,5 +14,5 @@ ul li a {
         text-decoration: none;
         padding: 15px 20px;
         margin-bottom: 10px;
-        border-radius: 5px;
+        border-radius: 5p;
 }
