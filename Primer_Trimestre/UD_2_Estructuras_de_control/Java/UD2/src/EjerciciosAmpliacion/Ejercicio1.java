@@ -28,6 +28,8 @@ public class Ejercicio1 {
         
         final int PIN_CORRECTO = 2580;
         
+        final int INTENTOS_PIN = 3;
+        
         
         // Declaracion de Variables
         
@@ -60,9 +62,9 @@ public class Ejercicio1 {
                 
             }
             
-            System.out.println("PIN incorrecto. Te quedan " + (3 - intentos) + " intentos.");
+            System.out.println("PIN incorrecto. Te quedan " + (INTENTOS_PIN - intentos) + " intentos.");
             
-            if (intentos == 3) {
+            if (intentos == INTENTOS_PIN) {
                 
                 System.out.println("Acceso bloqueado.");
                 
