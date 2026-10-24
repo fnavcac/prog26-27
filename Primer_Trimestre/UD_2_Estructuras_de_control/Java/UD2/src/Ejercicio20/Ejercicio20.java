@@ -33,7 +33,7 @@ public class Ejercicio20 {
             
             System.out.println("Introduce el número a sumar acumulado:");
             
-            numIngresado = entrada.nextDouble(); // Hay que utilizar , en lugar de .
+            numIngresado = entrada.nextDouble(); // Hay que utilizar , en lugar de . en al terminal
             
             sumaAcumulada += numIngresado;
             
