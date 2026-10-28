@@ -43,6 +43,8 @@ public class Ejercicio27 {
                 
                 esPrimo = false;
                 
+                break;
+                
             }
             
         }
