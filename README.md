@@ -30,6 +30,6 @@ En este repositorio se irán subiendo las actividades y prácticas del módulo, 
 
 **Ejercicios de ampliación** [Ejercicio 1](Primer_Trimestre/UD_2_Estructuras_de_control/Java/UD2/src/EjerciciosAmpliacion)
 
-### UD 3 Fucniones y procedimientos
+### UD 3 Funciones y procedimientos
 
 **Java:** [Ejercicio 1](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio1), [Ejercicio 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio2), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio3), [Ejercicio 4](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio4)
