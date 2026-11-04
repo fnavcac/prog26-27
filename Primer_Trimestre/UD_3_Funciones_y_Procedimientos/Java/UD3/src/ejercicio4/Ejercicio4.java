@@ -27,16 +27,17 @@ public class Ejercicio4 {
 
         num2 = entrada.nextDouble();
 
-        if (num2 == 0) {
-            
+        System.out.println("No se puede dividir entre 0");
+
+        // Todas las operaciones se hacen en el mismo orden num1 "operacion" num2
+        System.out.println("Introduce la operacion que quiere realizar:\n 1-Suma(numero 1 + numero 2)\n 2-Resta(numero1 - numero 2)\n 3-Multiplicacion(numero 1 * numero 2)\n 4-Division(numero 1 / numero 2)");
+
+        seleccionarMenu = entrada.nextInt();
+        
+        // Comprobamos si el divisor es 0
+        if (num2 == 0 && seleccionarMenu == 4) {
             System.out.println("No se puede dividir entre 0");
-            
         } else {
-            // Todas las operaciones se hacen en el mismo orden num1 "operacion" num2
-            System.out.println("Introduce la operacion que quiere realizar:\n 1-Suma(numero 1 + numero 2)\n 2-Resta(numero1 - numero 2)\n 3-Multiplicacion(numero 1 * numero 2)\n 4-Division(numero 1 / numero 2)");
-
-            seleccionarMenu = entrada.nextInt();
-
             // Menu calculadora
             switch (seleccionarMenu) {
 
