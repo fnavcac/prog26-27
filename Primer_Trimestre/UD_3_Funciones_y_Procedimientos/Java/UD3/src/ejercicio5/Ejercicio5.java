@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Ejercicio 5 Calculadora
  *
- * @author 03_1DAW
+ * @author 03_1DAW, Fran
  */
 public class Ejercicio5 {
 
@@ -182,6 +182,15 @@ public class Ejercicio5 {
         return multiplicacion;
 
     }
+    
+    // Da error porque ya existe ese metodo
+    /*public static double multiplicarNumeros(int num1, int num2) {
+
+        int multiplicacion = num1 * num2;
+
+        return multiplicacion;
+
+    }*/
 
     public static int multiplicarNumeros(int num1, int num2, int num3) {
 
