@@ -1,0 +1,257 @@
+package ejercicio7;
+
+import java.util.Scanner;
+
+/**
+ * Ejercicio 7
+ *
+ * @author 03_1DAW, fran
+ */
+public class Ejericicio7 {
+
+    public static void main(String[] args) {
+
+        // Variable
+        double num1, num2;
+
+        int seleccionarMenu;
+
+        // Pedir los datos al usuario
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.println("Introduce el primer numero:");
+
+        num1 = entrada.nextDouble();
+
+        System.out.println("Introduce el segundo numero:");
+
+        num2 = entrada.nextDouble();
+
+        // Todas las operaciones se hacen en el mismo orden num1 "operacion" num2
+        System.out.println("\nIntroduce la operacion que quiere realizar:\n 1-Suma(numero 1 + numero 2)\n 2-Resta(numero1 - numero 2)\n 3-Multiplicacion(numero 1 * numero 2)\n 4-Division(numero 1 / numero 2)\n 5-Principal(4 Multiplicaciones)\n 6-Mostrar datos de los numeros\n 7-Potencia (numero 1 ^ numero 2)\n 8-Raiz cuadrada (sqrt(numero 1)");
+
+        seleccionarMenu = entrada.nextInt();
+
+        // Comprobamos si el divisor es 0
+        if (num2 == 0 && seleccionarMenu == 4) {
+            System.out.println("No se puede dividir entre 0\n");
+        } else {
+            // Menu calculadora
+            switch (seleccionarMenu) {
+
+                case 1:
+
+                    System.out.println("\nHas seleccionado la suma");
+
+                    double suma = sumarNumeros(num1, num2);
+
+                    System.out.println(num1 + " + " + num2 + " : " + suma);
+
+                    break;
+
+                case 2:
+
+                    System.out.println("\nHas seleccionado la resta");
+
+                    double resta = restarNumeros(num1, num2);
+
+                    System.out.println(num1 + " - " + num2 + " : " + resta);
+
+                    break;
+
+                case 3:
+
+                    System.out.println("\nHas seleccionado la multiplicacion");
+
+                    double multiplicacion = multiplicarNumeros(num1, num2);
+
+                    System.out.println(num1 + " + " + num2 + " : " + multiplicacion);
+
+                    break;
+
+                case 4:
+
+                    System.out.println("\nHas seleccionado la division");
+
+                    double division = dividirNumeros(num1, num2);
+
+                    System.out.println(num1 + " / " + num2 + " : " + division);
+
+                    break;
+
+                case 5:
+
+                    System.out.println("\nSelecciona la multiplicacion que quiere hacer:\n 1- 2 parametros\n 2- 2 parametros enteros\n 3- 3 parametros\n 4- 2 parametros, uno decimal y el otro entero");
+
+                    int opcionMultiplicacion = entrada.nextInt();
+
+                    switch (opcionMultiplicacion) {
+
+                        case 1:
+                            System.out.println("\nHas seleccionado la primera multiplicarNumeros(double num1, double num2):");
+
+                            System.out.println(multiplicarNumeros(num1, num2));
+
+                            break;
+                        case 2:
+                            System.out.println("\nHas seleccionado la segunda multiplicarNumeros(int num1, int num2):");
+
+                            System.out.println(multiplicarNumeros((int) num1, (int) num2));
+
+                            break;
+                        case 3:
+                            System.out.println("\nHas seleccionado la tercera multiplicarNumeros(int num1, int num2, int num3):");
+
+                            System.out.println("Introduce el tercer numero:");
+
+                            int num3 = entrada.nextInt();
+
+                            System.out.println(multiplicarNumeros((int) num1, (int) num2, (int) num3));
+
+                            break;
+                        case 4:
+                            System.out.println("\nHas seleccionado la cuarta multiplicarNumeros(double num1, int num2)");
+
+                            System.out.println(multiplicarNumeros(num1, (int) num2));
+
+                            break;
+                        default:
+                            System.out.println("No es una multiplicacion valida");
+
+                            break;
+
+                    }
+
+                    break;
+
+                case 6:
+
+                    System.out.println("\nHas seleccionado mostrar datos de los numeros: " + num1 + " y " + num2);
+
+                    mostrarDatosNum(num1);
+
+                    mostrarDatosNum(num2);
+
+                    break;
+
+                case 7:
+
+                    System.out.println("\nHas seleccionado la potencia de: " + num1 + " elevado a " + num2);
+
+                    System.out.println(potenciaNumeros(num1, num2));
+
+                    break;
+
+                case 8:
+
+                    System.out.println("\nHas seleccionado la raiz cuadrada de: " + num1);
+
+                    System.out.println(raizNumero(num1));
+
+                    break;
+
+                default:
+
+                    System.out.println("No has seleccionado una operacion valida");
+
+                    break;
+
+            }
+        }
+
+    }
+
+    public static double sumarNumeros(double num1, double num2) {
+
+        double suma = num1 + num2;
+
+        return suma;
+
+    }
+
+    public static double restarNumeros(double num1, double num2) {
+
+        double resta = num1 - num2;
+
+        return resta;
+
+    }
+
+    // Metodos sobrecargados
+    public static double multiplicarNumeros(double num1, double num2) {
+
+        double multiplicacion = num1 * num2;
+
+        return multiplicacion;
+
+    }
+
+    public static int multiplicarNumeros(int num1, int num2) {
+
+        int multiplicacion = num1 * num2;
+
+        return multiplicacion;
+
+    }
+
+    // Nuevo metodo con distintos parametros que los anteriores, por lo tanto es compatible
+    public static double multiplicarNumeros(double num1, int num2) {
+
+        double multiplicacion = num1 * num2;
+
+        return multiplicacion;
+
+    }
+
+    public static int multiplicarNumeros(int num1, int num2, int num3) {
+
+        int multiplicacion = num1 * num2 * num3;
+
+        return multiplicacion;
+
+    }
+
+    public static double dividirNumeros(double num1, double num2) {
+
+        double division = num1 / num2;
+
+        return division;
+
+    }
+
+    public static double potenciaNumeros(double num1, double num2) {
+
+        double potencia = Math.pow(num1, num2);
+
+        return potencia;
+
+    }
+
+    public static double raizNumero(double num1) {
+
+        double raiz = Math.sqrt(num1);
+
+        return raiz;
+
+    }
+
+    public static void mostrarDatosNum(double num) {
+
+        System.out.println("\n==============================");
+
+        // Math.abs(variable) para el valor absoluto 
+        System.out.println("Valor absoluto: " + Math.abs(num));
+
+        // Math.sqrt(variable) para la raiz cuadrada
+        System.out.println("Raiz cuadrada: " + Math.sqrt(num));
+
+        // MAth.pow(variable, elevado=2) para el cuadrado, elevado tiene que ser 2
+        System.out.println("Cuadrado: " + Math.pow(num, 2));
+
+        // Math.round(variable) para el redondeo al numero entero mas proximo
+        System.out.println("Redondeo al entero mas proximo: " + Math.round(num));
+
+        System.out.println("==============================\n");
+
+    }
+}
