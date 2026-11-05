@@ -11,17 +11,17 @@ public class CalculadoraNotas {
 
     public static void main(String[] args) {
         
-        Scanner teclado = new Scanner(System.in);
+        //Scanner teclado = new Scanner(System.in);
 
         // Introducir las notas
         System.out.print("Introduce la primera nota: ");
-        double nota1 = leerNota(teclado);
+        double nota1 = leerNota(); // Tambien se puede usar el metodo sobrecargado leerNota(Scanner teclado)
 
         System.out.print("Introduce la segunda nota: ");
-        double nota2 = leerNota(teclado);
+        double nota2 = leerNota();
 
         System.out.print("Introduce la tercera nota: ");
-        double nota3 = leerNota(teclado);
+        double nota3 = leerNota();
 
         // Calcular la media
         double media = calcularMedia(nota1, nota2, nota3);
@@ -35,19 +35,27 @@ public class CalculadoraNotas {
         // Mostrar resultados
         mostrarResultados(media, maxima, aprobado);
         
-        teclado.close();
+        //teclado.close();
 
     }
 
-    // Leer las notas por teclado
+    // Leer las notas por teclado (Sobrecargado)
     public static double leerNota(Scanner teclado) {
-
-        //Scanner teclado = new Scanner(System.in);
 
         double nota = teclado.nextDouble();
 
         return nota;
 
+    }
+    
+    public static double leerNota() {
+        
+        Scanner teclado = new Scanner(System.in);
+
+        double nota = teclado.nextDouble();
+
+        return nota;
+        
     }
 
     // Calcular la media
