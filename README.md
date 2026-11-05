@@ -32,4 +32,6 @@ En este repositorio se irán subiendo las actividades y prácticas del módulo, 
 
 ### UD 3 Funciones y procedimientos
 
-**Java:** [Ejercicio 1](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio1), [Ejercicio 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio2), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio3), [Ejercicio 4](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio4)
+**Java:** [Ejercicio 1](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio1), [Ejercicio 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio2), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio3), [Ejercicio 4](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio4), [Ejercicio 5](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio5), [Ejercicio 6](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio6)
+
+**Ejercicios de ampliación** [Ejercicio 1 y 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), 
