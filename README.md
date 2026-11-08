@@ -22,6 +22,10 @@ En este repositorio se irán subiendo las actividades y prácticas del módulo, 
 
 **Ejercicios de ampliación** [Algoritmo del cajero automático](Primer_Trimestre/UD_1_Introduccion_a_la_programación/EjerciciosAmpliacion), [Desglose de tiempo en formato digital](Primer_Trimestre/UD_1_Introduccion_a_la_programación/EjerciciosAmpliacion), [Simulador Financiero e Interés Compuesto](Primer_Trimestre/UD_1_Introduccion_a_la_programación/EjerciciosAmpliacion)
 
+**Examen** [Examen UD1](Primer_Trimestre/UD_1_Introduccion_a_la_programación/Java/ExamenUD1/src)
+
+**Proyecto** [Proyecto UD1](https://github.com/fnavcac/Proyecto1_UD1/tree/main/Proyecto1/src/Nave)
+
 ### UD 2 Estructuras de control
 
 **Python:** [Ejercicio 1](Primer_Trimestre/UD_2_Estructuras_de_control/Ejercicio1), [Ejercicio 2](Primer_Trimestre/UD_2_Estructuras_de_control/Ejercicio2), [Ejercicio 4](Primer_Trimestre/UD_2_Estructuras_de_control/Ejercicio4_Python), [Ejercicio 5](Primer_Trimestre/UD_2_Estructuras_de_control/Ejercicio5_Python)
@@ -30,8 +34,16 @@ En este repositorio se irán subiendo las actividades y prácticas del módulo, 
 
 **Ejercicios de ampliación** [Ejercicio 1](Primer_Trimestre/UD_2_Estructuras_de_control/Java/UD2/src/EjerciciosAmpliacion)
 
+**Examen** [Examen UD2](Primer_Trimestre/UD_2_Estructuras_de_control/Java/ExamenUD2/src)
+
+**Proyecto** [Proyecto UD2](https://github.com/fnavcac/ProyectoUD2/tree/main/ProyectoUD2/src/Proyecto2)
+
 ### UD 3 Funciones y procedimientos
 
-**Java:** [Ejercicio 1](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio1), [Ejercicio 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio2), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio3), [Ejercicio 4](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio4), [Ejercicio 5](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio5), [Ejercicio 6](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio6)
+**Java:** [Ejercicio 1](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio1), [Ejercicio 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio2), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio3), [Ejercicio 4](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio4), [Ejercicio 5](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio5), [Ejercicio 6](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio6), [Ejercicio 7](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio7), [Ejercicio 8](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicio8), [Ejercicio 9](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/Tienda)
 
-**Ejercicios de ampliación** [Ejercicio 1 y 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), 
+**Ejercicios de ampliación** [Ejercicio 1 y 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), [Ejercicio 4](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion)
+
+**Examen** [Examen UD3]()
+
+**Proyecto** [Proyecto UD3]()
