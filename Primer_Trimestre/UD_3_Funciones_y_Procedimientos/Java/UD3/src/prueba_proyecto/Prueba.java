@@ -22,10 +22,6 @@ public class Prueba {
         
         System.out.println("El resulta es: " + resultado2);
         
-        
-        
-        
-        
     }
     
 }
