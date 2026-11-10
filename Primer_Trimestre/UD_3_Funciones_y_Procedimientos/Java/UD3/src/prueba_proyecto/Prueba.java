@@ -1,7 +1,7 @@
 
 package prueba_proyecto;
 
-import utilidades.Utilidades;
+//import utilidades.Utilidades;
 
 /**
  * Prueba del proyecto
@@ -12,7 +12,7 @@ import utilidades.Utilidades;
 public class Prueba {
     
     public static void main(String[] args) {
-        
+        /*
         double resultado = Utilidades.calcularGrande(1, 20);
         
         System.out.println("El grande es: " + resultado);
@@ -21,7 +21,7 @@ public class Prueba {
         double resultado2 = Utilidades.calcularDivision(8, 4);
         
         System.out.println("El resulta es: " + resultado2);
-        
+        */
     }
     
 }

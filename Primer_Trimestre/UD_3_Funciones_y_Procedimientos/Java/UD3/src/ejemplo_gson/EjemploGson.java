@@ -1,6 +1,6 @@
 package ejemplo_gson;
 
-import com.google.gson.Gson;
+//import com.google.gson.Gson;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
@@ -15,7 +15,7 @@ import com.google.gson.Gson;
 public class EjemploGson {
     
     public static void main(String[] args) {
-        Gson gs;
+        //Gson gs;
     }
             
     
