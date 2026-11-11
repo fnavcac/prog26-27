@@ -58,6 +58,19 @@ public class Ejercicio3 {
             
         }
         
+        // Para aplicarle el IVA (Ampliacion)
+        for (int i=0; i<precios.length; i++) {
+            
+            precios[i] = precios[i] * 1.21;
+            
+        }
+        
+        for (int i=0; i<precios.length; i++) {
+            
+            System.out.println(precios[i]);
+            
+        }
+        
     }
     
 }
