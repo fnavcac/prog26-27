@@ -39,7 +39,7 @@ public class Ejercicio3 {
 
         indiceModificar = entrada.nextInt();
         
-        if(indiceModificar > 4 || indiceModificar < 0) {
+        if(indiceModificar > precios.length || indiceModificar < 0) {
             
             System.out.println("Esta fuera de rango\n");
             

@@ -20,10 +20,12 @@ public class Ejercicio1 {
             System.out.println(numeros[i]);
             
         }*/
-        
+                
         System.out.println("\nArray antes\n=============");
         
         mostrarArray(numeros);
+        
+        mostrarArrayLado(numeros);
         
         numeros[2] = 27;
         
@@ -37,6 +39,8 @@ public class Ejercicio1 {
         
         mostrarArray(numeros);
         
+        mostrarArrayLado(numeros);
+        
     }
     
     public static void mostrarArray(int[] numeros){
@@ -44,6 +48,16 @@ public class Ejercicio1 {
         for (int i=0; i<numeros.length; i++) {
             
             System.out.println(numeros[i]);
+            
+        }
+        
+    }
+    
+    public static void mostrarArrayLado(int[] numeros){
+        
+        for (int i=0; i<numeros.length; i++) {
+            
+            System.out.print(numeros[i] + " ");
             
         }
         

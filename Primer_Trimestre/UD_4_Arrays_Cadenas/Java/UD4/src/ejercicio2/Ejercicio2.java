@@ -35,6 +35,12 @@ public class Ejercicio2 {
         
         System.out.println("Se han almacenado " + temperaturas.length + " temperaturas");
         
+        for (int i=0; i<temperaturas.length; i++) {
+            
+            if(temperaturas[i] != 0.0) System.out.println(temperaturas[i]);
+            
+        }
+        
     }
     
 }
