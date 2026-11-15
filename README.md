@@ -44,6 +44,8 @@ En este repositorio se irán subiendo las actividades y prácticas del módulo, 
 
 **Ejercicios de ampliación** [Ejercicio 1 y 2](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), [Ejercicio 3](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion), [Ejercicio 4](Primer_Trimestre/UD_3_Funciones_y_Procedimientos/Java/UD3/src/ejercicios_ampliacion)
 
-**Examen** [Examen UD3]()
+**Proyecto** [Proyecto UD3](https://github.com/fnavcac/ProyectoUD3/tree/main/BibliotecaLibreria/src/utilidades)
 
-**Proyecto** [Proyecto UD3]()
+### UD 4 Arrays y cadenas
+
+**Java** [Ejercicio 1](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio1), [Ejercicio 2](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio2), [Ejercicio 3](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio3), [Ejercicio 4](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio4), [Ejercicio 5](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio5),  [Ejercicio 6](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio6), [Ejercicio 7](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio7), [Ejercicio 8](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio8), [Ejercicio 9](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio9), [Ejercicio 10](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio10), [Ejercicio 11](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio11), [Ejercicio 12](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio12), [Ejercicio 13](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio13), [Ejercicio 13 (14)](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio14), [Ejercicio 15](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio15), [Ejercicio 16](Primer_Trimestre/UD_4_Arrays_Cadenas/Java/UD4/src/ejercicio16)
