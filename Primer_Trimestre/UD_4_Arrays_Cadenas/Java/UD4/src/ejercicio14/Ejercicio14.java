@@ -1,7 +1,7 @@
 
 package ejercicio14;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 /**
  * Ejercicio 14
@@ -19,7 +19,7 @@ public class Ejercicio14 {
         //int numeroBuscado;
         
         int contador;
-        
+                
         // Mostar el array
         System.out.println("\nEl array es:");
         

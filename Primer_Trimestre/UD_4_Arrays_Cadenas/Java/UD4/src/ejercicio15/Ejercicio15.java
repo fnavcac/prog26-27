@@ -24,6 +24,12 @@ public class Ejercicio15 {
         
         int notaBuscar, contadorNota = 0;
         
+        int buscado = 9;
+        
+        int primera = -1;
+        
+        int ultima = -1;
+        
         // Calculos y pedir dato al usuario
         Scanner entrada = new Scanner(System.in);
         
@@ -52,6 +58,24 @@ public class Ejercicio15 {
         
         
         System.out.println("Hay " + contadorNota + " alumnos con un " + notaBuscar);
+        
+        for (int i=0; i<notas.length; i++) {
+            
+            if (notas[i] == buscado) {
+                
+                if (primera == -1){
+                    
+                    primera = i;
+                    
+                }
+                
+                ultima = i;
+                
+            }
+            
+        }
+        
+        System.out.println("La nota maxima aparece en la posicion: " + primera + " y " + ultima);
         
     }
     

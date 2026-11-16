@@ -18,6 +18,8 @@ public class Ejercicio12 {
         
         int numeroBuscado;
         
+        boolean presente = false;
+        
         // Mostar el array
         System.out.println("\nEl array es:");
         
@@ -37,9 +39,11 @@ public class Ejercicio12 {
         // Recorrer el array y mostrar el si se ha encontrado
         for (int numero : numeros) {
             
-            if(numero == numeroBuscado) System.out.println("El numero " + numeroBuscado + " esta presente en el array");
+            if(numero == numeroBuscado) presente = true;
             
         }
+        
+        System.out.println("El numero " + numeroBuscado + " esta presente: " + presente);
         
     }
     

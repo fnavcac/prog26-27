@@ -18,6 +18,8 @@ public class Ejercicio13 {
         
         int numeroBuscado;
         
+        int posicion = -1;
+        
         // Mostar el array
         System.out.println("\nEl array es:");
         
@@ -37,9 +39,11 @@ public class Ejercicio13 {
         // Recorrer el array y mostrar el si se ha encontrado
         for (int i=0; i<numeros.length; i++) {
             
-            if(numeros[i] == numeroBuscado) System.out.println("El numero " + numeroBuscado + " se encuentra en la posicion " + i);
+            if(numeros[i] == numeroBuscado) posicion = i;
             
         }
+        
+        System.out.println("El numero " + numeroBuscado + " se encuentra en la posicion " + posicion);
         
     }
     
