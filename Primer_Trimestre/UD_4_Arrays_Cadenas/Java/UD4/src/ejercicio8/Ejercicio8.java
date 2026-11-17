@@ -42,15 +42,14 @@ public class Ejercicio8 {
         System.out.println("\nHay " + contador + " valores que superan " + valorASuperar);
     }
     
-    public static double[] incrementarArray(double[] numerosArray, double valorIncrementar) {
+    // Se incrementa porque los arrays son por referencia
+    public static void incrementarArray(double[] numerosArray, double valorIncrementar) {
         
         for (int i=0; i<numerosArray.length; i++) {
             
             numerosArray[i] = numerosArray[i] + (numerosArray[i] * valorIncrementar);
             
         }
-        
-        return numerosArray;
         
     }
     

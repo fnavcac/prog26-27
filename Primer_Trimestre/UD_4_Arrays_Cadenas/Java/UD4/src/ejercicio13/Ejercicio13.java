@@ -39,11 +39,17 @@ public class Ejercicio13 {
         // Recorrer el array y mostrar el si se ha encontrado
         for (int i=0; i<numeros.length; i++) {
             
-            if(numeros[i] == numeroBuscado) posicion = i;
+            if(numeros[i] == numeroBuscado){
+            
+                posicion = i;
+            
+                System.out.println("El numero " + numeroBuscado + " se encuentra en la posicion " + posicion);
+                
+            }
             
         }
         
-        System.out.println("El numero " + numeroBuscado + " se encuentra en la posicion " + posicion);
+        //System.out.println("El numero " + numeroBuscado + " se encuentra en la posicion " + posicion);
         
     }
     
