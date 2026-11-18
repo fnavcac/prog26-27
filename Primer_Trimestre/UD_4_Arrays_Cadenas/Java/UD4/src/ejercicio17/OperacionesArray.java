@@ -81,21 +81,13 @@ public class OperacionesArray {
         
         if (numeros == null) return 0;
         
-        double suma = 0;
+        double suma;
         
         double media;
         
-        int contador = 0;
+        suma = sumar(numeros);
         
-        for (int i=0; i<numeros.length; i++) {
-            
-            suma = sumar(numeros);
-            
-            contador++;
-            
-        }
-        
-        media = suma/contador;
+        media = suma/numeros.length;
         
         return media;
         
@@ -107,7 +99,7 @@ public class OperacionesArray {
         
         int maximo = numeros[0];
         
-        for (int i=0; i<numeros.length; i++) {
+        for (int i=1; i<numeros.length; i++) {
             
             if (maximo <= numeros[i]) maximo = numeros[i];
             

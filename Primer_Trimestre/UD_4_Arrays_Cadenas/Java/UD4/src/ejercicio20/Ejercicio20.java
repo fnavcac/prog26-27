@@ -2,7 +2,8 @@
 package ejercicio20;
 
 /**
- *
+ * Ejercicio 20
+ * 
  * @author 03_1DAW, fran
  */
 
