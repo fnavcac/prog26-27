@@ -39,15 +39,15 @@ public class Ejercicio32 {
                 contador++;
                 
             } 
-            else if (caracter == 'a') contadorA++;
+            if (caracter == 'a') contadorA++;
             
-            else if (caracter == 'e') contadorE++;
+            if (caracter == 'e') contadorE++;
             
-            else if (caracter == 'i') contadorI++;
+            if (caracter == 'i') contadorI++;
             
-            else if (caracter == 'o') contadorO++;
+            if (caracter == 'o') contadorO++;
             
-            else if (caracter == 'u') contadorU++;
+            if (caracter == 'u') contadorU++;
             
         }
         

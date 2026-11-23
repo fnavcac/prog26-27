@@ -14,7 +14,7 @@ public class Ejercicio33 {
         // Variable
         String frase;
         
-        int numLetras=0, numDigitos=0, numEspacios=0;
+        int numLetras=0, numDigitos=0, numEspacios=0, numOtrosCaracteres=0;
         
         int numLetrasMinusculas=0, numLetrasMayusculas=0;
 
@@ -35,6 +35,7 @@ public class Ejercicio33 {
                 numLetras++;
                 
                 if (Character.isLowerCase(caracter)) numLetrasMinusculas++;
+                
                 else if (Character.isUpperCase(caracter)) numLetrasMayusculas++;
             
             }
@@ -42,15 +43,21 @@ public class Ejercicio33 {
             
             else if (Character.isWhitespace(caracter)) numEspacios++;
             
-            //else
+            else numOtrosCaracteres++;
             
         }
         
         System.out.println("\nLetras: " + numLetras);
         
+        System.out.println("Letras minusculas: " + numLetrasMinusculas);
+        
+        System.out.println("Letras mayusculas: " + numLetrasMayusculas);
+        
         System.out.println("Digitos: " + numDigitos);
         
-        //System.out.println("Espacios: " + );
+        System.out.println("Espacios: " + numEspacios);
+        
+        System.out.println("Otros caracteres: " + numOtrosCaracteres);
 
     }
 
