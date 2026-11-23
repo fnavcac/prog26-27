@@ -32,7 +32,7 @@ public class Ejercicio29 {
         
         nombreMinuscula = nombreMayuscula.toLowerCase();
         
-        nombreGuiones = nombreSinEspacios.replace(" ", "-");
+        nombreGuiones = nombreSinEspacios.replace(" ", "-"); // (' ', '-')
         
         
         System.out.println("\nResultado:");

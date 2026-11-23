@@ -38,7 +38,7 @@ public class Ejercicio28 {
         posicionFinal = entrada.nextInt();
         
         
-        if (posicionInicial >= 0 && frase.length() > posicionFinal && posicionInicial <= posicionFinal) {
+        if (posicionInicial >= 0 && frase.length() >= posicionFinal && posicionInicial <= posicionFinal) {
             
             fraseSubcadena = frase.substring(posicionInicial, posicionFinal);
             
